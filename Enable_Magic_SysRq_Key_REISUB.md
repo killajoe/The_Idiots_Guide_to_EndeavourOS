@@ -5,9 +5,9 @@ A common use is to reboot when the computer freezes and becomes unresponsive due
 On EndeavourOS, like on vanilla Arch, this functionality is disabled by default, because it is a potential security concern (however, since it requires physical access to the keyboard, it's not a big security concern). This is how you enable it:
 
 * Run this command in the terminal: 
-  ```text
-  echo 'kernel.sysrq=1' | sudo tee /etc/sysctl.d/99-reisub.conf 
-  ```
+* 
+  `echo 'kernel.sysrq=1' | sudo tee /etc/sysctl.d/99-reisub.conf`
+  
   This will create the file `/etc/sysctl.d/99-reisub.conf`, containing the single line `kernel.sysrq=1` (it does not have to be named `99-reisub.conf`, but the name is good because you'll know what it does, it is the location of the file and its contents that are important). Alternatively, you can create this file using a terminal-based text editor, like `vim` or `nano` with `sudo`.
     
 * Reboot for the change to take place.
