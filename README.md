@@ -118,3 +118,6 @@ Cheers - to a long and trouble free installation.  Keep on rollin'.
 
 
 *edited again - what started out as my personal guide for how I update my own Arch/Endeavour systems has been embraced by the team and community more than I originally had intended or anticipated.  I have removed some bits to make the distinction that this is a guide for Endeavour specifically and to distinguish they are not the same, nor the same project.*
+
+Written by the famous (infamous):
+https://forum.endeavouros.com/u/fbodymechanic/summary
