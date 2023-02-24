@@ -17,9 +17,7 @@ ______________________________________________________________________
 2. (a) Keep updated 
 - maintenance schedule - as frequently as you would like.  From several times a day to at least once every other week (in my opinion)
 
-```
-yay
-```
+`yay`
 
 That's it.  
 
@@ -31,9 +29,8 @@ That's it.
 - I also use the program meld from terminal for this
 - *note for Arch users who may be reading this - you will need meld from the repos if you don't already have it to complete this step*
 
-```
-DIFFPROG=meld pacdiff
-```
+`DIFFPROG=meld pacdiff`
+
 - remove/overwrite/merge as necessary - for more information please see the arch wiki:
 - https://wiki.archlinux.org/title/Pacman/Pacnew_and_Pacsave
 
@@ -45,27 +42,22 @@ ____________________________________________________________________
 - this gets saved to /etc/pacman.d/mirrorlist
 
 I usually copy and paste this from my current mirrorlist file as it will show up on top and then I don't have to type it out every time.
-```
-reflector --protocol https --verbose --latest 25 --sort rate --save /etc/pacman.d/mirrorlist
-```
+
+`reflector --protocol https --verbose --latest 25 --sort rate --save /etc/pacman.d/mirrorlist`
 
 **Always after updating your mirrorlist - refresh your entire system**
-```
-yay -Syyu
-```
+
+`yay -Syyu`
 
 3. (b) Update Mirrors - Endeavour (optional)
 - maintenance schedule - 1-6months
 - there is not a huge amount of them, so it's up to you if it's worth it to do it more or less frequently.
 - this will be saved in /etc/pacman.d/endeavouros-mirrorlist
 
-```
-eos-rankmirrors --verbose
-```
+`eos-rankmirrors --verbose`
 **Always after updating your mirrorlist - refresh your entire system**
-```
-yay -Syyu
-```
+
+`yay -Syyu`
 
 ______________________________________________________________________
 
@@ -74,9 +66,7 @@ ______________________________________________________________________
 - more info: https://wiki.archlinux.org/title/Systemd/Journal
 - this will keep 1 months (4 weeks) worth of journal entries you can still see in case you have errors
 
-```
-journalctl --vacuum-time=4weeks
-```
+`journalctl --vacuum-time=4weeks`
 ______________________________________________________________________
 
 5. Clean Cache
@@ -85,15 +75,11 @@ ______________________________________________________________________
 - they can be found in `/var/cache/pacman/pkg`
 - paccache keeps 3 versions by default - please see the Arch Wiki if you would like other options here: https://wiki.archlinux.org/title/Pacman#Cleaning_the_package_cache
 
-```
-paccache -r
-```
+`paccache -r`
 
 I also do not carry a cache of uninstalled packages - I assume I uninstalled them for a reason.  If you would like to remove ALL uninstalled packages (as I do)
 
-```
-paccache -ruk0
-```
+`paccache -ruk0`
 ______________________________________________________________________
 
 6.  Remove Orphans
@@ -101,9 +87,7 @@ ______________________________________________________________________
 - ALWAYS look over your list - make absolutely sure you want to remove all packages shown.  If you would like to keep any - make them explicity installed first before proceeding.  
 - by issuing this command you understand the consequences, if you do not - read about orphans here: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Removing_unused_packages_(orphans)
 
-```
-pacman -Rns $(pacman -Qdtq)
-```
+`pacman -Rns $(pacman -Qdtq)`
 ______________________________________________________________________
 
 7. Clearing Old Configuration Files
