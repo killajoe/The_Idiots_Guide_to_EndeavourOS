@@ -30,3 +30,7 @@ For more info, see:
 https://wiki.archlinux.org/index.php/Keyboard_shortcuts#Kernel
 
 https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html
+
+In consultation with the Holy Frog Congress humbly created by 
+
+https://forum.endeavouros.com/u/kresimir/summary
