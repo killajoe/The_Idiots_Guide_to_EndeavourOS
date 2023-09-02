@@ -12,8 +12,6 @@ This is *my* maintenance plan.  I have been using the same install for almost 2 
 Rule # 1 to keeping a system up and running and **NOT** having problems - 
 *DON'T BREAK YOUR OWN COMPUTER.* Most problems are user generated.
 
-______________________________________________________________________
-
 2. (a) Keep updated 
 - maintenance schedule - as frequently as you would like.  From several times a day to at least once every other week (in my opinion)
 
