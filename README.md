@@ -95,11 +95,11 @@ I also do not carry a cache of uninstalled packages - I assume I uninstalled the
 
 
 **8.  DON'T BREAK YOUR OWN SYSTEM**
--
 - It's so important I added it at the end again
 - *most* people have problems due to their own doing.  The easiest way to continue having a trouble free system is by not creating problems.  
 
 **Warning - I'm not responsible for any and all problems that may come from following this guide.  It's your computer to do as you please, good or bad.  You are sudo, you have the power and with that it's your own responsibility to maintain your computer as you wish.  If you do NOT understand what these do - do your own research first.  Good luck.**
+
 ----
 
 
