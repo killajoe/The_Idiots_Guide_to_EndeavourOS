@@ -121,3 +121,5 @@ Cheers - to a long and trouble free installation.  Keep on rollin'.
 
 Written by the famous (infamous):
 https://forum.endeavouros.com/u/fbodymechanic/summary
+
+https://forum.endeavouros.com/t/a-complete-idiots-guide-to-endeavour-os-maintenance-update-upgrade/25184
